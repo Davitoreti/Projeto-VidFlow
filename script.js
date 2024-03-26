@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-const api = fetch("http://localhost:3000/videos")
-.then(res => console.log(res.json()))
-=======
 const containerVideos = document.querySelector('.videos__container');
-
 
 const api = fetch('http://localhost:3000/videos')
 .then(res => res.json())
@@ -22,4 +17,3 @@ const api = fetch('http://localhost:3000/videos')
     })
 
 )
->>>>>>> ca82cd4535b3d40e93a342f5533e54eaa2296e89
